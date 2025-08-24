@@ -17,8 +17,8 @@ def sendemail():
         message = request.form["message"]
 
         # Replace with your Gmail credentials
-        your_email = "your_email@gmail.com"
-        your_password = "your_app_password"  # Use an App Password if 2FA is enabled
+        your_email = "vijayachittipothula@gmail.com"
+        your_password = "qqfu rcwq snif abbf"  # Use an App Password if 2FA is enabled
 
         # Set up the SMTP server
         server = smtplib.SMTP("smtp.gmail.com", 587)
